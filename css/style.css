@@ -707,6 +707,28 @@ a.contato-card:hover .contato-link { gap: .7rem; }
   color: var(--text-muted);
 }
 
+.footer-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .3rem;
+}
+
+.footer-credit {
+  font-size: .78rem;
+  color: var(--text-muted);
+}
+
+.footer-credit-link {
+  color: var(--green);
+  font-weight: 600;
+  transition: color var(--transition);
+}
+
+.footer-credit-link:hover {
+  color: var(--white);
+}
+
 .footer-social {
   display: flex;
   gap: .85rem;
